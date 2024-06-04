@@ -1,20 +1,28 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: 새로운 기능 추가, 기존의 기능 개선을 요청하기 위한 템플릿입니다.
 title: ''
 labels: ''
-assignees: json-kim
+assignees: ''
+body:
+  - type: input
+    id: design_doc
+    attributes:
+      label: Design Doc
+      description: Add a design doc if there is one for this feature.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe the feature you are adding.
+    validations:
+      required: true
+  - type: textarea
+    id: tracking_issues
+    attributes:
+      label: Tracking Issues
+      description: List of issues associated with this feature.
+    validations:
+      required: true
 
 ---
-
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
