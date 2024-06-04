@@ -12,17 +12,17 @@ body:
   - type: textarea
     id: issue_detail
     attributes:
-      label: 이슈 상세 내용
+      label: 상세 내용
       description: 이슈의 내용을 상세히 설명해주세요.
     validations:
       required: true
   - type: textarea
     id: issue_worklist
     attributes:
-      label: 이슈 작업 목록
+      label: 작업 목록
       description: 이슈에 필요한 작업 목록을 작성해주세요.
       value: |
-        - ex) 필요한 작업 내용
+        - [ ] 필요한 작업 내용
     validations:
       required: true
   - type: input
