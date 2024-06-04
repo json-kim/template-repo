@@ -1,5 +1,5 @@
 name: Feature request
-about: 새로운 기능 추가, 기존의 기능 개선을 요청하기 위한 템플릿입니다.
+description: 새로운 기능 추가, 기존의 기능 개선을 요청하기 위한 템플릿입니다.
 body:
   - type: input
     id: design_doc
